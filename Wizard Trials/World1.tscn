@@ -1,0 +1,182 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 32, 32 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 32, 32 )
+
+[node name="World1" type="Node"]
+
+[node name="MC" type="KinematicBody2D" parent="."]
+position = Vector2( 480, 224 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="MC"]
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MC"]
+shape = SubResource( 1 )
+
+[node name="World" type="Node" parent="."]
+editor/display_folded = true
+
+[node name="Tile" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 480, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile"]
+shape = SubResource( 2 )
+
+[node name="Tile2" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 544, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile2"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile2"]
+shape = SubResource( 2 )
+
+[node name="Tile3" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 608, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile3"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile3"]
+shape = SubResource( 2 )
+
+[node name="Tile4" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 416, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile4"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile4"]
+shape = SubResource( 2 )
+
+[node name="Tile5" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 352, 352 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile5"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile5"]
+shape = SubResource( 2 )
+
+[node name="Tile6" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 352, 288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile6"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile6"]
+shape = SubResource( 2 )
+
+[node name="Tile7" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 352, 224 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile7"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile7"]
+shape = SubResource( 2 )
+
+[node name="Tile8" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 288, 224 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile8"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile8"]
+shape = SubResource( 2 )
+
+[node name="Tile9" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 224, 224 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile9"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile9"]
+shape = SubResource( 2 )
+
+[node name="Tile10" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 608, 288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile10"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile10"]
+shape = SubResource( 2 )
+
+[node name="Tile11" type="StaticBody2D" parent="World"]
+editor/display_folded = true
+position = Vector2( 672, 288 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="World/Tile11"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Tile11"]
+shape = SubResource( 2 )
