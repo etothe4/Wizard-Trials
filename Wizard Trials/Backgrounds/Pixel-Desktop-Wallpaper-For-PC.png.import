@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/YellowPotion2.png-3ba6fa37a615f8a82768c8a1b5c71acd.stex"
+path="res://.import/Pixel-Desktop-Wallpaper-For-PC.png-716da6b3346cad60bef52778d0af2bf7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Other/YellowPotion2.png"
-dest_files=[ "res://.import/YellowPotion2.png-3ba6fa37a615f8a82768c8a1b5c71acd.stex" ]
+source_file="res://Backgrounds/Pixel-Desktop-Wallpaper-For-PC.png"
+dest_files=[ "res://.import/Pixel-Desktop-Wallpaper-For-PC.png-716da6b3346cad60bef52778d0af2bf7.stex" ]
 
 [params]
 
