@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/running tuneogg.ogg-a2cfcabb203d4fccd2ac4f221cada41d.oggstr"
+
+[deps]
+
+source_file="res://Music/running tuneogg.ogg"
+dest_files=[ "res://.import/running tuneogg.ogg-a2cfcabb203d4fccd2ac4f221cada41d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

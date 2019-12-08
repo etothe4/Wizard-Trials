@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/SZ Evil.ogg-a1f9c096a58ad04b99659f3d99751cb7.oggstr"
+
+[deps]
+
+source_file="res://Music/SZ Evil.ogg"
+dest_files=[ "res://.import/SZ Evil.ogg-a1f9c096a58ad04b99659f3d99751cb7.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

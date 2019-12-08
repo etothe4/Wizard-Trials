@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/The_Journey_Home.ogg-c3cdaf77b4fca0dc1c3e8b2b9e094fc3.oggstr"
+
+[deps]
+
+source_file="res://Music/The_Journey_Home.ogg"
+dest_files=[ "res://.import/The_Journey_Home.ogg-c3cdaf77b4fca0dc1c3e8b2b9e094fc3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
