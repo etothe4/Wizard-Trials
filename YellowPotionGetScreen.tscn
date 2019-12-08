@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Fonts/ReemKufi-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Fonts/Gabriola.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 2 )
+
+[node name="YellowPotionGetScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 192.0
+margin_top = 96.0
+margin_right = 416.0
+margin_bottom = 288.0
+
+[node name="Label" type="Label" parent="Panel"]
+margin_left = 20.0
+margin_top = 40.0045
+margin_right = 202.88
+margin_bottom = 72.0045
+custom_fonts/font = SubResource( 1 )
+text = "You got the Yellow Potion!"
+
+[node name="Label2" type="Label" parent="Panel"]
+margin_left = 20.0
+margin_top = 72.0045
+margin_right = 206.0
+margin_bottom = 125.005
+custom_fonts/font = SubResource( 2 )
+text = "            Now you can shoot
+                           lightning!"
+
+[node name="Label3" type="Label" parent="Panel"]
+margin_left = 20.0
+margin_top = 134.0
+margin_right = 206.0
+margin_bottom = 179.0
+custom_fonts/font = SubResource( 3 )
+text = "Press the Spacebar to shoot lightning"
